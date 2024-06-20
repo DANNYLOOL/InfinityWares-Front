@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { GuestService } from 'src/app/services/guest.service';
-import Swal from 'sweetalert2';
 declare var iziToast:any;
 
 @Component({
