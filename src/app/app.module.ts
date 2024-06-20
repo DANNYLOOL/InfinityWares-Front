@@ -35,6 +35,7 @@ import { PoliticasEnvioComponent } from './components/static/politicas-envio/pol
 import { TerminosCondicionesComponent } from './components/static/terminos-condiciones/terminos-condiciones.component';
 import { ContactoComponent } from './components/static/contacto/contacto.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
+import { NgxCaptchaModule } from 'ngx-captcha';
 
 
 @NgModule({
@@ -71,6 +72,7 @@ import { NotfoundComponent } from './components/notfound/notfound.component';
     HttpClientModule,
     NgbPaginationModule,
     RatingModule,
+    NgxCaptchaModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

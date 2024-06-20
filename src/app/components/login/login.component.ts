@@ -18,6 +18,8 @@ export class LoginComponent implements OnInit {
   public op = 1;
   public carrito_logout :Array<any> = [];
 
+  siteKey: string = '6Lc96_wpAAAAABM9IZVEgJMMxBhYa4nnImjikmF4';
+
   constructor(
     private _guestService:GuestService,
     private _router:Router
